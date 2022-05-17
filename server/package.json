@@ -1,0 +1,25 @@
+{
+  "name": "audit_log_server",
+  "version": "1.0.0",
+  "description": "Audit Log Server",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --forceExit",
+    "start": "node server.js",
+    "dev:server": "nodemon server.js"
+  },
+  "author": "Mihrab",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}
